@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Mali:ital,wght@1,300&display=swap');
+@font-face {
+    font-family: 'space-age';
+    src: url('fontes/space-age.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+
+}
+
+header{
+    box-shadow: 0px 2px 5px 5px rgba(0, 0, 0, 0.329);
+    margin: 0px;
+    padding: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#2fa866, #1a5c37, #063d1e);
+}
+
+.titulo{
+    text-align: center;
+    margin: 15px 0px 20px 0px;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+}
+
+.subtitulo{
+    text-align: center;
+margin-bottom: 40px;
+color: white;
+}
+
+a{
+    color: rgb(158, 218, 158);
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    margin-right: ;
+    padding: 10px;
+}
+
+a:hover{
+    border-radius: 5px;
+    background-color:rgb(179, 231, 179);
+    padding: 5px;
+    text-decoration: dashed;
+    transition-duration: 0.5s;
+}
+
+/* PARTE MAIN DA PRIMEIRA PÁGINA */
+main
+{
+    background-color: aliceblue;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 15px 15px;
+    max-width: 850px;
+    min-width: 320px;
+}
+
+.tituloprincipal{
+    font-family: 'space-age', Arial, Helvetica, sans-serif;
+    color: rgb(8, 78, 8);
+}
+.paragrafo{
+    text-indent: 40px;
+    line-height: 30px;
+}
+.corstrong{
+    color: green;
+}
+
+.sub{
+    font-family:'space-age', Arial, Helvetica, sans-serif;
+    color: rgb(65, 102, 65);
+    background-image: linear-gradient(to right, #83e1ad, white);
+}
+
+.centro{
+    text-align: center;
+}
+
+.centroytb{
+    text-align: center;
+    background-color: rgb(10, 58, 10);
+}
+
+.titulo3{
+    background-color: rgb(16, 56, 16);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.aprendermais{
+    background-color: rgba(166, 219, 166, 0.801);
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.direita{
+    text-align: right;
+}
+
+.linkcorforte{
+    color: rgb(35, 99, 35);
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 40px;
+
+}
+.rodape{
+    background-color: rgb(27, 41, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\';
+    
+}
+
+li{
+    display: list-item;
+}
